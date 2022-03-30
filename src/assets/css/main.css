@@ -1,0 +1,30 @@
+button {
+    white-space: nowrap;
+}
+
+tr th {
+    min-width: 200px;
+    /* white-space: nowrap; */
+}
+
+tr th.fit-width {
+    min-width: fit-content;
+    white-space: nowrap;
+}
+
+tr td {
+    min-width: 200px;
+}
+
+tr td.fit-width {
+    min-width: fit-content;
+    white-space: nowrap;
+}
+
+tr td div {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
